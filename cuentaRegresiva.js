@@ -1,5 +1,5 @@
    // Establecer la fecha de destino
-   var countDownDate = new Date("Jun 26, 2024 15:30:00").getTime();
+   var countDownDate = new Date("Jul 20, 2024 15:00:00").getTime();
 
    // Actualizar la cuenta regresiva cada segundo
    var x = setInterval(function() {
@@ -40,7 +40,7 @@
        // Si la cuenta regresiva termina, mostrar un mensaje
        if (distance < 0) {
            clearInterval(x);
-           document.getElementById("cuentaRegresiva").innerHTML = "¡La cuenta regresiva ha terminado!";
+           document.getElementById("cuentaRegresiva").innerHTML = "¡La cuenta regresiva ha terminado, te esperamos!";
        }
    }, 1000);
 
