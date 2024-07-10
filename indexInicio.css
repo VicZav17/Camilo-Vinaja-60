@@ -1,4 +1,4 @@
-@import "node_modules/@fontsource/great-vibes/index.css";
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/great-vibes/index.css");
 
 .nav-link {
     color: #7b502d;
