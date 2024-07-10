@@ -1,4 +1,4 @@
-@import "index.css";
+@import "./node_modules/@fontsource/great-vibes/index.css";
 
 .nav-link {
     color: #7b502d;
